@@ -9,7 +9,7 @@
 #include <fstream>
 #include <vector>
 #include <cstdio>
-#include <omp.h>
+
 
 #include <chrono>
 #include <random>
