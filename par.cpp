@@ -4,10 +4,16 @@
 
 #include <random>
 
-const size_t SIZE = 10;
-const size_t MAX_DIGITS = 10; // максимальное кол-во цифр в числе
 
 void MeasTime() {
+    size_t SIZE ;
+    size_t MAX_DIGITS;
+
+    std::cout << "Input array size: ";
+    std::cin >> SIZE;
+    std::cout << "Input count of digits: ";
+    std::cin >> MAX_DIGITS;
+    
     std::vector<CIntN0> for_sum1;
     std::vector<CIntN0> for_sum2;
     
